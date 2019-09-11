@@ -26,13 +26,6 @@ RUN apt-get -y update && \
         libtiff-dev \
         libv4l-dev
 
-# numpy etc
-RUN pip install wheel && \
-    pip install numpy && \
-    pip install pandas && \
-    pip install scipy && \
-    pip install scikit-learn && \
-    pip install python-magic
 
 # lib for tesseract
 RUN apt-get update && \
