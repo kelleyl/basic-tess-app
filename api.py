@@ -18,7 +18,7 @@ def get_text(image):
     # proc = cv2.threshold(proc, 0, 255,
     #                      cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
     proc = cv2.medianBlur(proc, 3)
-    text = pytesseract.image_to_string(image)
+    text = pytesseract.image_to_string(proc)
     return text
 
 class TestAPI(Resource):
