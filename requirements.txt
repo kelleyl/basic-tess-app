@@ -3,5 +3,5 @@ Flask-RESTful==0.3.7
 Flask-WTF==0.14.2
 imutils==0.5.2
 numpy==1.15.4
-opencv-python==3.4.5.20
+opencv-python==3.4.7.28
 pytesseract==0.2.6
